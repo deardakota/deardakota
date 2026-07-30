@@ -1,6 +1,6 @@
 # Dear Dakota
 
-Dear Dakota is a small static website backed by GitHub and deployed through the existing Traefik + Cloudflare setup.
+Dear Dakota is a small personal placeholder website backed by GitHub and deployed through the existing Traefik + Cloudflare setup.
 
 ## Live update flow
 
@@ -29,4 +29,4 @@ git push
 
 - The live site is already behind Traefik.
 - Cloudflare is configured for Full Strict TLS.
-- This repo is the source of truth for the public site.
+- This repo is the source of truth for the site.
