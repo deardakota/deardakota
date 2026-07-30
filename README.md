@@ -1,6 +1,6 @@
 # Dear Dakota
 
-A small dashboard for the numbers that matter.
+A small dashboard for Etsy sales, email volume, and follow-up actions.
 
 ## What matters
 
