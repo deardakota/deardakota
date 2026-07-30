@@ -47,6 +47,23 @@ body {
   padding: 1.5rem;
 }
 
+.metric-card {
+  min-height: 180px;
+}
+
+.kpi {
+  margin: 0.25rem 0 0.5rem;
+  font-size: clamp(2rem, 6vw, 3.25rem);
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  color: #f8fafc;
+}
+
+.kpi-note {
+  margin-bottom: 0;
+  max-width: 22ch;
+}
+
 .eyebrow {
   margin: 0 0 1rem;
   text-transform: uppercase;

@@ -1,13 +1,12 @@
 # Dear Dakota
 
-A small personal placeholder site.
+A small dashboard for the numbers that matter.
 
 ## What matters
 
-- It is not a signup page.
-- It is mainly for me, with maybe a friend or two seeing it.
-- GitHub is the source of truth.
-- The server pulls updates automatically.
+- Etsy sales volume
+- Emails received
+- Follow-up queue and next actions
 
 ## Workflow
 

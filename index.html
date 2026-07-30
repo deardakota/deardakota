@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Dear Dakota — a personal placeholder site with GitHub-based updates." />
+    <meta name="description" content="Dear Dakota — a small dashboard for the numbers that matter." />
     <meta name="theme-color" content="#0f172a" />
     <title>Dear Dakota</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
@@ -13,23 +13,43 @@
     <main class="shell">
       <section class="card hero">
         <p class="eyebrow">Dear Dakota</p>
-        <h1>Personal placeholder.</h1>
+        <h1>Track what matters.</h1>
         <p class="lede">
-          This is a small site for me and a few friends. GitHub is the source of
-          truth, and the server pulls updates automatically.
+          Keep an eye on Etsy sales volume, incoming emails, and the follow-up work
+          that tells us what to do next.
         </p>
         <div class="actions">
-          <a class="button primary" href="#details">Details</a>
+          <a class="button primary" href="#metrics">View metrics</a>
           <a class="button secondary" href="https://github.com/deardakota/deardakota" target="_blank" rel="noreferrer">Repo</a>
         </div>
       </section>
 
-      <section class="card compact" id="details">
-        <h2>What matters</h2>
+      <section class="grid" id="metrics" aria-label="Key metrics">
+        <article class="card compact metric-card">
+          <h2>Etsy sales volume</h2>
+          <p class="kpi">—</p>
+          <p class="kpi-note">Current month / week / day totals</p>
+        </article>
+
+        <article class="card compact metric-card">
+          <h2>Emails received</h2>
+          <p class="kpi">—</p>
+          <p class="kpi-note">New messages and replies needed</p>
+        </article>
+
+        <article class="card compact metric-card">
+          <h2>Follow-ups</h2>
+          <p class="kpi">—</p>
+          <p class="kpi-note">Open tasks, pending orders, and next steps</p>
+        </article>
+      </section>
+
+      <section class="card compact">
+        <h2>What we care about</h2>
         <ul>
-          <li>Personal placeholder, not a signup page.</li>
-          <li>GitHub is the source of truth.</li>
-          <li>The server pulls updates automatically.</li>
+          <li>Etsy sales volume.</li>
+          <li>Emails received.</li>
+          <li>Follow-up queue and next actions.</li>
         </ul>
       </section>
     </main>
