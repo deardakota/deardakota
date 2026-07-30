@@ -4,7 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Dear Dakota — a clean, living website with GitHub-based updates and production delivery through Traefik + Cloudflare." />
+    <meta name="theme-color" content="#0f172a" />
+    <meta property="og:title" content="Dear Dakota" />
+    <meta property="og:description" content="A simple live homepage powered by GitHub pushes and automatic server pulls." />
+    <meta property="og:type" content="website" />
     <title>Dear Dakota</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -22,6 +28,15 @@
         <div class="actions">
           <a class="button primary" href="#updates">How updates work</a>
           <a class="button secondary" href="https://github.com/deardakota/deardakota" target="_blank" rel="noreferrer">View repo</a>
+        </div>
+      </section>
+
+      <section class="card banner" aria-label="Status banner">
+        <div>
+          <strong>Live delivery:</strong> GitHub → server pull loop → Cloudflare/Traefik
+        </div>
+        <div>
+          <strong>Refresh cadence:</strong> every 60 seconds
         </div>
       </section>
 

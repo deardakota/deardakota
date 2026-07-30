@@ -143,8 +143,24 @@ footer {
   font-size: 0.95rem;
 }
 
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1.2rem 1.5rem;
+  font-size: 0.98rem;
+}
+
+.banner strong {
+  color: var(--text);
+}
+
 @media (max-width: 860px) {
   .shell { padding-top: 1rem; }
   .grid { grid-template-columns: 1fr; }
   h1 { max-width: 100%; }
+  .banner { flex-direction: column; align-items: flex-start; }
 }
