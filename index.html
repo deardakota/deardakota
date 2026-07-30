@@ -3,82 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Dear Dakota — a personal placeholder website with GitHub-based updates and production delivery through Traefik + Cloudflare." />
+    <meta name="description" content="Dear Dakota — a personal placeholder site with GitHub-based updates." />
     <meta name="theme-color" content="#0f172a" />
-    <meta property="og:title" content="Dear Dakota" />
-    <meta property="og:description" content="A personal placeholder homepage powered by GitHub pushes and automatic server pulls." />
-    <meta property="og:type" content="website" />
     <title>Dear Dakota</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="shell">
-      <section class="hero card">
-        <p class="eyebrow">Dear Dakota · personal placeholder site</p>
-        <h1>Simple, private, and ready for the next idea.</h1>
+      <section class="card hero">
+        <p class="eyebrow">Dear Dakota</p>
+        <h1>Good enough for now.</h1>
         <p class="lede">
-          This site is a lightweight placeholder for me and a few friends to
-          check out — deployed through GitHub, served by Traefik, and protected by
-          Cloudflare Full Strict TLS.
+          This is a personal placeholder site for me and a few friends.
+          Updates go through GitHub and live deploy through the existing server setup.
         </p>
         <div class="actions">
-          <a class="button primary" href="#updates">How updates work</a>
-          <a class="button secondary" href="https://github.com/deardakota/deardakota" target="_blank" rel="noreferrer">Source repo</a>
+          <a class="button primary" href="#details">Details</a>
+          <a class="button secondary" href="https://github.com/deardakota/deardakota" target="_blank" rel="noreferrer">Repo</a>
         </div>
       </section>
 
-      <section class="card banner" aria-label="Status banner">
-        <div>
-          <strong>Live delivery:</strong> GitHub → server pull loop → Cloudflare/Traefik
-        </div>
-        <div>
-          <strong>Refresh cadence:</strong> every 60 seconds
-        </div>
-      </section>
-
-      <section class="grid" aria-label="Site overview">
-        <article class="card">
-          <h2>What this is</h2>
-          <p>
-            A clean placeholder homepage for the Dear Dakota project — easy to
-            edit, easy to review, and easy to deploy.
-          </p>
-        </article>
-
-        <article class="card">
-          <h2>What powers it</h2>
-          <p>
-            Changes are committed to GitHub and pulled into the live server on a
-            short interval, so updates stay simple and repeatable.
-          </p>
-        </article>
-
-        <article class="card" id="updates">
-          <h2>How updates work</h2>
-          <ol>
-            <li>Edit files in the repo.</li>
-            <li>Commit and push to <code>main</code>.</li>
-            <li>The server pulls the new version automatically.</li>
-          </ol>
-        </article>
-      </section>
-
-      <section class="card spotlight">
-        <h2>Ready for the next page</h2>
-        <p>
-          This landing page is intentionally small so we can swap in real content,
-          add sections, and expand the site without changing the deployment flow.
-        </p>
+      <section class="card compact" id="details">
+        <h2>What matters</h2>
+        <ul>
+          <li>Personal placeholder, not a signup page.</li>
+          <li>GitHub is the source of truth.</li>
+          <li>The server pulls updates automatically.</li>
+        </ul>
       </section>
     </main>
-
-    <footer>
-      <p>Built for fast iteration. Updated through GitHub. Served live.</p>
-    </footer>
   </body>
 </html>

@@ -1,32 +1,18 @@
 # Dear Dakota
 
-Dear Dakota is a small personal placeholder website backed by GitHub and deployed through the existing Traefik + Cloudflare setup.
+A small personal placeholder site.
 
-## Live update flow
+## What matters
 
-1. Edit files in this repo.
-2. Commit changes to `main`.
-3. Push to GitHub.
-4. The live server pulls the update automatically.
+- It is not a signup page.
+- It is mainly for me, with maybe a friend or two seeing it.
+- GitHub is the source of truth.
+- The server pulls updates automatically.
 
-## Current files
-
-- `index.html` — homepage
-- `styles.css` — site styling
-- `README.md` — repo overview
-- `DEPLOYMENT.md` — deployment notes
-
-## Local edit loop
+## Workflow
 
 ```bash
-git status
 git add .
-git commit -m "Describe change"
+git commit -m "Update site"
 git push
 ```
-
-## Notes
-
-- The live site is already behind Traefik.
-- Cloudflare is configured for Full Strict TLS.
-- This repo is the source of truth for the site.

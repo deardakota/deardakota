@@ -40,6 +40,11 @@ body {
 
 .hero {
   padding: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 1rem;
+}
+
+.compact {
+  padding: 1.5rem;
 }
 
 .eyebrow {
